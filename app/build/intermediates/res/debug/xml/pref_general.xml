@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:robobunny="http://robobunny.com"
+    android:key="preference_screen">
+
+    <PreferenceCategory android:title="Speech">
+
+        <com.example.android.volumecontrol.SeekBarPreference
+            android:key="seekbar"
+            android:title="Filter settings"
+            android:summary="Adjust reading speed"
+            android:defaultValue="80"
+            android:max="200"
+            robobunny:min="1"
+            robobunny:unitsLeft=""
+            robobunny:unitsRight="%" />
+    </PreferenceCategory>
+
+</PreferenceScreen><!-- From: file:/home/stephen/Documents/Developpement/Android/NightControl/app/src/main/res/xml/pref_general.xml -->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Night Controls</string>
+    <string name="Volume">Volume</string>
+    <string name="action_settings">Settings</string>
+    <string name="ButtonOn">On</string>
+    <string name="ButtonOff">Off</string>
+    <string name="textSlideVolume">Slide to adjust the volume</string>
+    <string name="textSlideBrightness">Slide to adjust the brightness</string>
+    <string name="hardware_minimum">Adjust sound to the hardware minimum</string>
+    <string name="hardware_maximum">Adjust sound to the hardware maximum</string>
+    <string name="Brightness">Brightness</string>
+    <string name="filter_settings">Filter settings</string>
+
+
+</resources>
