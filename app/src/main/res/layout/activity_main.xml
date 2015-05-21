@@ -128,42 +128,23 @@
         android:layout_marginTop="10dp">
 
         <TextView
-            android:id="@+id/hardware_maximum"
-            android:text="@string/hardware_maximum"
+            android:textSize="30sp"
+            android:id="@+id/flash"
+            android:text="@string/flash_level"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_weight=".5" />
+            android:layout_weight="0.4" />
 
-        <CheckBox
-            android:id="@+id/checkbox_maximum"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-    </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="10dp">
-
-        <TextView
-            android:id="@+id/hardware_minimum"
-            android:text="@string/hardware_minimum"
-            android:layout_width="fill_parent"
+        <Switch
+            android:id="@+id/switch_flash"
             android:layout_height="wrap_content"
-            android:layout_weight=".5" />
-
-        <CheckBox
-            android:id="@+id/checkbox_minimum"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_width="fill_parent"
+            android:layout_weight="0.6"
+            android:textOn="@string/ButtonOn"
+            android:textOff="@string/ButtonOff"
+            />
     </LinearLayout>
-
-    <View
-        android:layout_width="fill_parent"
-        android:layout_height="1dp"
-        android:background="@android:color/black" />
 
 
 </LinearLayout>

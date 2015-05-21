@@ -6,7 +6,7 @@
 
     <PreferenceCategory android:title="Speech">
 
-        <com.example.android.volumecontrol.SeekBarPreference
+        <com.example.android.nightcontrols.SeekBarPreference
             android:key="seekbar"
             android:title="Filter settings"
             android:summary="Adjust reading speed"
@@ -17,4 +17,4 @@
             robobunny:unitsRight="%" />
     </PreferenceCategory>
 
-</PreferenceScreen><!-- From: file:/home/stephen/Documents/Developpement/Android/NightControl/app/src/main/res/xml/pref_general.xml -->
+</PreferenceScreen><!-- From: file:/Users/stephen/Documents/Developpement/Android/NightControl/app/src/main/res/xml/pref_general.xml -->

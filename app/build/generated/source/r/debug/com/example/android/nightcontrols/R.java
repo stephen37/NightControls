@@ -1320,21 +1320,19 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f09002e;
         public static final int action_mode_bar_stub=0x7f09002d;
         public static final int action_mode_close_button=0x7f090020;
-        public static final int action_settings=0x7f09005a;
+        public static final int action_settings=0x7f090058;
         public static final int activity_chooser_view_content=0x7f090021;
         public static final int alphaControl=0x7f090042;
         public static final int always=0x7f090016;
         public static final int beginning=0x7f090013;
-        public static final int blueControl=0x7f090054;
-        public static final int blueLabel=0x7f090053;
+        public static final int blueControl=0x7f090052;
+        public static final int blueLabel=0x7f090051;
         public static final int brightness=0x7f09003f;
-        public static final int buttons=0x7f090055;
-        public static final int cancelButton=0x7f090056;
+        public static final int buttons=0x7f090053;
+        public static final int cancelButton=0x7f090054;
         public static final int checkbox=0x7f090029;
-        public static final int checkbox_maximum=0x7f09004b;
-        public static final int checkbox_minimum=0x7f09004d;
         public static final int collapseActionView=0x7f090017;
-        public static final int container=0x7f09004e;
+        public static final int container=0x7f09004c;
         public static final int decor_content_parent=0x7f09002f;
         public static final int default_activity_button=0x7f090024;
         public static final int dialog=0x7f09001b;
@@ -1344,12 +1342,11 @@ containing a value of this type.
         public static final int end=0x7f090014;
         public static final int expand_activities_button=0x7f090022;
         public static final int expanded_menu=0x7f090028;
-        public static final int filter=0x7f090058;
-        public static final int filter_settings=0x7f090059;
-        public static final int greenControl=0x7f090052;
-        public static final int greenLabel=0x7f090051;
-        public static final int hardware_maximum=0x7f09004a;
-        public static final int hardware_minimum=0x7f09004c;
+        public static final int filter=0x7f090056;
+        public static final int filter_settings=0x7f090057;
+        public static final int flash=0x7f09004a;
+        public static final int greenControl=0x7f090050;
+        public static final int greenLabel=0x7f09004f;
         public static final int home=0x7f090004;
         public static final int homeAsUp=0x7f09000d;
         public static final int icon=0x7f090026;
@@ -1362,13 +1359,13 @@ containing a value of this type.
         public static final int never=0x7f090019;
         public static final int none=0x7f09000e;
         public static final int normal=0x7f09000a;
-        public static final int okButton=0x7f090057;
+        public static final int okButton=0x7f090055;
         public static final int percentage=0x7f090049;
         public static final int progress_circular=0x7f090005;
         public static final int progress_horizontal=0x7f090006;
         public static final int radio=0x7f09002b;
-        public static final int redControl=0x7f090050;
-        public static final int redLabel=0x7f09004f;
+        public static final int redControl=0x7f09004e;
+        public static final int redLabel=0x7f09004d;
         public static final int search_badge=0x7f090035;
         public static final int search_bar=0x7f090034;
         public static final int search_button=0x7f090036;
@@ -1390,6 +1387,7 @@ containing a value of this type.
         public static final int submit_area=0x7f09003c;
         public static final int switch_button=0x7f090045;
         public static final int switch_button_brightness=0x7f090040;
+        public static final int switch_flash=0x7f09004b;
         public static final int tabMode=0x7f09000b;
         public static final int text_slide=0x7f090046;
         public static final int text_slide_brightness=0x7f090041;
@@ -1458,8 +1456,8 @@ containing a value of this type.
         public static final int action_settings=0x7f0b0014;
         public static final int app_name=0x7f0b0015;
         public static final int filter_settings=0x7f0b0016;
-        public static final int hardware_maximum=0x7f0b0017;
-        public static final int hardware_minimum=0x7f0b0018;
+        public static final int flash=0x7f0b0017;
+        public static final int flash_level=0x7f0b0018;
         public static final int textSlideBrightness=0x7f0b0019;
         public static final int textSlideVolume=0x7f0b001a;
     }
@@ -1779,7 +1777,7 @@ containing a value of this type.
             0x7f01001a, 0x7f01001b, 0x7f010071
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#background}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#background}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -1789,7 +1787,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_background = 10;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -1801,7 +1799,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_backgroundSplit = 12;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#backgroundStacked}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#backgroundStacked}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -1813,7 +1811,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_backgroundStacked = 11;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -1829,7 +1827,7 @@ containing a value of this type.
         */
         public static final int ActionBar_contentInsetEnd = 21;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -1845,7 +1843,7 @@ containing a value of this type.
         */
         public static final int ActionBar_contentInsetLeft = 22;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -1861,7 +1859,7 @@ containing a value of this type.
         */
         public static final int ActionBar_contentInsetRight = 23;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -1877,7 +1875,7 @@ containing a value of this type.
         */
         public static final int ActionBar_contentInsetStart = 20;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#customNavigationLayout}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#customNavigationLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -1887,7 +1885,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_customNavigationLayout = 13;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#displayOptions}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#displayOptions}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -1909,7 +1907,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_displayOptions = 3;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#divider}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#divider}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -1919,7 +1917,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_divider = 9;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#elevation}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -1935,7 +1933,7 @@ containing a value of this type.
         */
         public static final int ActionBar_elevation = 24;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#height}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#height}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -1951,7 +1949,7 @@ containing a value of this type.
         */
         public static final int ActionBar_height = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#hideOnContentScroll}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#hideOnContentScroll}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -1965,7 +1963,7 @@ containing a value of this type.
         */
         public static final int ActionBar_hideOnContentScroll = 19;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -1975,7 +1973,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_homeAsUpIndicator = 26;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#homeLayout}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#homeLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -1985,7 +1983,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_homeLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#icon}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#icon}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -1995,7 +1993,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_icon = 7;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#indeterminateProgressStyle}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#indeterminateProgressStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2005,7 +2003,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_indeterminateProgressStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#itemPadding}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#itemPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2021,7 +2019,7 @@ containing a value of this type.
         */
         public static final int ActionBar_itemPadding = 18;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#logo}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#logo}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2031,7 +2029,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_logo = 8;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#navigationMode}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#navigationMode}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2049,7 +2047,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_navigationMode = 2;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#popupTheme}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2059,7 +2057,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_popupTheme = 25;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#progressBarPadding}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#progressBarPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2075,7 +2073,7 @@ containing a value of this type.
         */
         public static final int ActionBar_progressBarPadding = 17;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#progressBarStyle}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#progressBarStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2085,7 +2083,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_progressBarStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#subtitle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2099,7 +2097,7 @@ containing a value of this type.
         */
         public static final int ActionBar_subtitle = 4;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2109,7 +2107,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_subtitleTextStyle = 6;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#title}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#title}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2123,7 +2121,7 @@ containing a value of this type.
         */
         public static final int ActionBar_title = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2200,7 +2198,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01000e, 0x7f01001c
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#background}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#background}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -2210,7 +2208,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionMode_background = 3;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -2222,7 +2220,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionMode_backgroundSplit = 4;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#closeItemLayout}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#closeItemLayout}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -2232,7 +2230,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionMode_closeItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#height}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#height}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -2248,7 +2246,7 @@ containing a value of this type.
         */
         public static final int ActionMode_height = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -2258,7 +2256,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionMode_subtitleTextStyle = 2;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -2283,7 +2281,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01001d, 0x7f01001e
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#expandActivityOverflowButtonDrawable}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#expandActivityOverflowButtonDrawable}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
@@ -2293,7 +2291,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#initialActivityCount}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#initialActivityCount}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
@@ -2320,7 +2318,7 @@ containing a value of this type.
             0x7f01001f
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#textAllCaps}
           attribute's value can be found in the {@link #CompatTextView} array.
 
 
@@ -2359,7 +2357,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010024, 0x7f010025, 0x7f010026, 0x7f010027
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#barSize}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#barSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2375,7 +2373,7 @@ containing a value of this type.
         */
         public static final int DrawerArrowToggle_barSize = 6;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#color}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#color}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2390,7 +2388,7 @@ containing a value of this type.
         */
         public static final int DrawerArrowToggle_color = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#drawableSize}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#drawableSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2406,7 +2404,7 @@ containing a value of this type.
         */
         public static final int DrawerArrowToggle_drawableSize = 2;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#gapBetweenBars}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#gapBetweenBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2422,7 +2420,7 @@ containing a value of this type.
         */
         public static final int DrawerArrowToggle_gapBetweenBars = 3;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#middleBarArrowSize}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#middleBarArrowSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2438,7 +2436,7 @@ containing a value of this type.
         */
         public static final int DrawerArrowToggle_middleBarArrowSize = 5;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#spinBars}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#spinBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2452,7 +2450,7 @@ containing a value of this type.
         */
         public static final int DrawerArrowToggle_spinBars = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#thickness}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#thickness}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2468,7 +2466,7 @@ containing a value of this type.
         */
         public static final int DrawerArrowToggle_thickness = 7;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#topBottomBarArrowSize}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#topBottomBarArrowSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2545,7 +2543,7 @@ containing a value of this type.
         */
         public static final int LinearLayoutCompat_android_weightSum = 4;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#divider}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#divider}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -2555,7 +2553,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int LinearLayoutCompat_divider = 5;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#dividerPadding}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#dividerPadding}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -2571,7 +2569,7 @@ containing a value of this type.
         */
         public static final int LinearLayoutCompat_dividerPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#measureWithLargestChild}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#measureWithLargestChild}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -2585,7 +2583,7 @@ containing a value of this type.
         */
         public static final int LinearLayoutCompat_measureWithLargestChild = 6;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#showDividers}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#showDividers}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -2783,7 +2781,7 @@ containing a value of this type.
             0x7f01002e
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#actionLayout}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#actionLayout}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -2793,7 +2791,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int MenuItem_actionLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#actionProviderClass}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#actionProviderClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -2807,7 +2805,7 @@ containing a value of this type.
         */
         public static final int MenuItem_actionProviderClass = 16;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#actionViewClass}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#actionViewClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -2899,7 +2897,7 @@ containing a value of this type.
         */
         public static final int MenuItem_android_visible = 4;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#showAsAction}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#showAsAction}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -2989,7 +2987,7 @@ containing a value of this type.
         */
         public static final int MenuView_android_windowAnimationStyle = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#preserveIconSpacing}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#preserveIconSpacing}
           attribute's value can be found in the {@link #MenuView} array.
 
 
@@ -3024,7 +3022,7 @@ containing a value of this type.
         */
         public static final int PopupWindow_android_popupBackground = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#overlapAnchor}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#overlapAnchor}
           attribute's value can be found in the {@link #PopupWindow} array.
 
 
@@ -3051,7 +3049,7 @@ containing a value of this type.
             0x7f010031
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#state_above_anchor}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#state_above_anchor}
           attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
 
 
@@ -3133,7 +3131,7 @@ containing a value of this type.
         */
         public static final int SearchView_android_maxWidth = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#closeIcon}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#closeIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -3143,7 +3141,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SearchView_closeIcon = 7;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#commitIcon}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#commitIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -3153,7 +3151,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SearchView_commitIcon = 11;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#goIcon}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#goIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -3163,7 +3161,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SearchView_goIcon = 8;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#iconifiedByDefault}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#iconifiedByDefault}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -3177,7 +3175,7 @@ containing a value of this type.
         */
         public static final int SearchView_iconifiedByDefault = 5;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#layout}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#layout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -3187,7 +3185,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SearchView_layout = 4;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#queryBackground}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#queryBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -3197,7 +3195,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SearchView_queryBackground = 13;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#queryHint}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#queryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -3211,7 +3209,7 @@ containing a value of this type.
         */
         public static final int SearchView_queryHint = 6;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#searchIcon}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#searchIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -3221,7 +3219,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SearchView_searchIcon = 9;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#submitBackground}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#submitBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -3231,7 +3229,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SearchView_submitBackground = 14;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#suggestionRowLayout}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#suggestionRowLayout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -3241,7 +3239,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SearchView_suggestionRowLayout = 12;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#voiceIcon}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#voiceIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -3328,7 +3326,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Spinner_android_popupBackground = 3;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#disableChildrenWhenDisabled}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#disableChildrenWhenDisabled}
           attribute's value can be found in the {@link #Spinner} array.
 
 
@@ -3342,7 +3340,7 @@ containing a value of this type.
         */
         public static final int Spinner_disableChildrenWhenDisabled = 10;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#popupPromptView}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#popupPromptView}
           attribute's value can be found in the {@link #Spinner} array.
 
 
@@ -3352,7 +3350,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Spinner_popupPromptView = 9;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#prompt}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#prompt}
           attribute's value can be found in the {@link #Spinner} array.
 
 
@@ -3362,7 +3360,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Spinner_prompt = 7;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#spinnerMode}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#spinnerMode}
           attribute's value can be found in the {@link #Spinner} array.
 
 
@@ -3430,7 +3428,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SwitchCompat_android_thumb = 2;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#showText}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#showText}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -3444,7 +3442,7 @@ containing a value of this type.
         */
         public static final int SwitchCompat_showText = 9;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#splitTrack}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#splitTrack}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -3458,7 +3456,7 @@ containing a value of this type.
         */
         public static final int SwitchCompat_splitTrack = 8;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#switchMinWidth}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#switchMinWidth}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -3474,7 +3472,7 @@ containing a value of this type.
         */
         public static final int SwitchCompat_switchMinWidth = 6;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#switchPadding}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#switchPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -3490,7 +3488,7 @@ containing a value of this type.
         */
         public static final int SwitchCompat_switchPadding = 7;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#switchTextAppearance}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#switchTextAppearance}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -3500,7 +3498,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SwitchCompat_switchTextAppearance = 5;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#thumbTextPadding}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#thumbTextPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -3516,7 +3514,7 @@ containing a value of this type.
         */
         public static final int SwitchCompat_thumbTextPadding = 4;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#track}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#track}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -3723,7 +3721,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010097, 0x7f010098, 0x7f010099
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#actionBarDivider}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#actionBarDivider}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -3733,7 +3731,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionBarDivider = 19;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#actionBarItemBackground}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#actionBarItemBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -3743,7 +3741,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionBarItemBackground = 20;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#actionBarPopupTheme}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#actionBarPopupTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -3753,7 +3751,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionBarPopupTheme = 13;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#actionBarSize}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#actionBarSize}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -3777,7 +3775,7 @@ containing a value of this type.
         */
         public static final int Theme_actionBarSize = 18;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#actionBarSplitStyle}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#actionBarSplitStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -3787,7 +3785,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionBarSplitStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#actionBarStyle}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#actionBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -3797,7 +3795,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionBarStyle = 14;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#actionBarTabBarStyle}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#actionBarTabBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -3807,7 +3805,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionBarTabBarStyle = 9;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#actionBarTabStyle}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#actionBarTabStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -3817,7 +3815,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionBarTabStyle = 8;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#actionBarTabTextStyle}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#actionBarTabTextStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -3827,7 +3825,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionBarTabTextStyle = 10;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#actionBarTheme}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#actionBarTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -3837,7 +3835,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionBarTheme = 16;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#actionBarWidgetTheme}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#actionBarWidgetTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -3847,7 +3845,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionBarWidgetTheme = 17;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#actionButtonStyle}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#actionButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -3857,7 +3855,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionButtonStyle = 43;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#actionDropDownStyle}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#actionDropDownStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -3867,7 +3865,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionDropDownStyle = 38;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#actionMenuTextAppearance}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#actionMenuTextAppearance}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -3877,7 +3875,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionMenuTextAppearance = 21;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#actionMenuTextColor}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#actionMenuTextColor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -3889,7 +3887,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionMenuTextColor = 22;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#actionModeBackground}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#actionModeBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -3899,7 +3897,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionModeBackground = 25;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#actionModeCloseButtonStyle}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#actionModeCloseButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -3909,7 +3907,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionModeCloseButtonStyle = 24;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#actionModeCloseDrawable}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#actionModeCloseDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -3919,7 +3917,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionModeCloseDrawable = 27;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#actionModeCopyDrawable}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#actionModeCopyDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -3929,7 +3927,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionModeCopyDrawable = 29;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#actionModeCutDrawable}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#actionModeCutDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -3939,7 +3937,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionModeCutDrawable = 28;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#actionModeFindDrawable}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#actionModeFindDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -3949,7 +3947,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionModeFindDrawable = 33;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#actionModePasteDrawable}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#actionModePasteDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -3959,7 +3957,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionModePasteDrawable = 30;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#actionModePopupWindowStyle}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#actionModePopupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -3969,7 +3967,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionModePopupWindowStyle = 35;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#actionModeSelectAllDrawable}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#actionModeSelectAllDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -3979,7 +3977,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionModeSelectAllDrawable = 31;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#actionModeShareDrawable}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#actionModeShareDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -3989,7 +3987,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionModeShareDrawable = 32;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#actionModeSplitBackground}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#actionModeSplitBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -3999,7 +3997,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionModeSplitBackground = 26;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#actionModeStyle}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#actionModeStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4009,7 +4007,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionModeStyle = 23;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#actionModeWebSearchDrawable}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#actionModeWebSearchDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4019,7 +4017,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionModeWebSearchDrawable = 34;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#actionOverflowButtonStyle}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#actionOverflowButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4029,7 +4027,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionOverflowButtonStyle = 11;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#actionOverflowMenuStyle}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#actionOverflowMenuStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4039,7 +4037,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionOverflowMenuStyle = 12;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#activityChooserViewStyle}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#activityChooserViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4055,7 +4053,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_android_windowIsFloating = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#buttonBarButtonStyle}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#buttonBarButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4065,7 +4063,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_buttonBarButtonStyle = 45;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#buttonBarStyle}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#buttonBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4075,7 +4073,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_buttonBarStyle = 44;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#colorAccent}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#colorAccent}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4090,7 +4088,7 @@ containing a value of this type.
         */
         public static final int Theme_colorAccent = 77;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#colorButtonNormal}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#colorButtonNormal}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4105,7 +4103,7 @@ containing a value of this type.
         */
         public static final int Theme_colorButtonNormal = 81;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#colorControlActivated}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#colorControlActivated}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4120,7 +4118,7 @@ containing a value of this type.
         */
         public static final int Theme_colorControlActivated = 79;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#colorControlHighlight}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#colorControlHighlight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4135,7 +4133,7 @@ containing a value of this type.
         */
         public static final int Theme_colorControlHighlight = 80;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#colorControlNormal}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#colorControlNormal}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4150,7 +4148,7 @@ containing a value of this type.
         */
         public static final int Theme_colorControlNormal = 78;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#colorPrimary}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#colorPrimary}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4165,7 +4163,7 @@ containing a value of this type.
         */
         public static final int Theme_colorPrimary = 75;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#colorPrimaryDark}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#colorPrimaryDark}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4180,7 +4178,7 @@ containing a value of this type.
         */
         public static final int Theme_colorPrimaryDark = 76;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#colorSwitchThumbNormal}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#colorSwitchThumbNormal}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4195,7 +4193,7 @@ containing a value of this type.
         */
         public static final int Theme_colorSwitchThumbNormal = 82;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#dividerHorizontal}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#dividerHorizontal}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4205,7 +4203,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_dividerHorizontal = 49;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#dividerVertical}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#dividerVertical}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4215,7 +4213,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_dividerVertical = 48;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#dropDownListViewStyle}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#dropDownListViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4225,7 +4223,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_dropDownListViewStyle = 67;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#dropdownListPreferredItemHeight}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#dropdownListPreferredItemHeight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4241,7 +4239,7 @@ containing a value of this type.
         */
         public static final int Theme_dropdownListPreferredItemHeight = 39;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#editTextBackground}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#editTextBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4251,7 +4249,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_editTextBackground = 56;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#editTextColor}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#editTextColor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4263,7 +4261,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_editTextColor = 55;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4273,7 +4271,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_homeAsUpIndicator = 42;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#listChoiceBackgroundIndicator}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#listChoiceBackgroundIndicator}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4283,7 +4281,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_listChoiceBackgroundIndicator = 74;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#listPopupWindowStyle}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#listPopupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4293,7 +4291,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_listPopupWindowStyle = 68;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#listPreferredItemHeight}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#listPreferredItemHeight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4309,7 +4307,7 @@ containing a value of this type.
         */
         public static final int Theme_listPreferredItemHeight = 62;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#listPreferredItemHeightLarge}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#listPreferredItemHeightLarge}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4325,7 +4323,7 @@ containing a value of this type.
         */
         public static final int Theme_listPreferredItemHeightLarge = 64;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#listPreferredItemHeightSmall}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#listPreferredItemHeightSmall}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4341,7 +4339,7 @@ containing a value of this type.
         */
         public static final int Theme_listPreferredItemHeightSmall = 63;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#listPreferredItemPaddingLeft}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#listPreferredItemPaddingLeft}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4357,7 +4355,7 @@ containing a value of this type.
         */
         public static final int Theme_listPreferredItemPaddingLeft = 65;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#listPreferredItemPaddingRight}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#listPreferredItemPaddingRight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4373,7 +4371,7 @@ containing a value of this type.
         */
         public static final int Theme_listPreferredItemPaddingRight = 66;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#panelBackground}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#panelBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4383,7 +4381,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_panelBackground = 71;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#panelMenuListTheme}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#panelMenuListTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4393,7 +4391,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_panelMenuListTheme = 73;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#panelMenuListWidth}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#panelMenuListWidth}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4409,7 +4407,7 @@ containing a value of this type.
         */
         public static final int Theme_panelMenuListWidth = 72;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#popupMenuStyle}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#popupMenuStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4419,7 +4417,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_popupMenuStyle = 53;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#popupWindowStyle}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#popupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4429,7 +4427,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_popupWindowStyle = 54;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#searchViewStyle}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#searchViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4439,7 +4437,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_searchViewStyle = 61;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#selectableItemBackground}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#selectableItemBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4449,7 +4447,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_selectableItemBackground = 46;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#selectableItemBackgroundBorderless}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#selectableItemBackgroundBorderless}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4459,7 +4457,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_selectableItemBackgroundBorderless = 47;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#spinnerDropDownItemStyle}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#spinnerDropDownItemStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4469,7 +4467,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_spinnerDropDownItemStyle = 41;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#spinnerStyle}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#spinnerStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4479,7 +4477,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_spinnerStyle = 40;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#switchStyle}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#switchStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4489,7 +4487,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_switchStyle = 57;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#textAppearanceLargePopupMenu}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#textAppearanceLargePopupMenu}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4499,7 +4497,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_textAppearanceLargePopupMenu = 36;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#textAppearanceListItem}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#textAppearanceListItem}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4509,7 +4507,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_textAppearanceListItem = 69;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#textAppearanceListItemSmall}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#textAppearanceListItemSmall}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4519,7 +4517,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_textAppearanceListItemSmall = 70;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#textAppearanceSearchResultSubtitle}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#textAppearanceSearchResultSubtitle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4529,7 +4527,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_textAppearanceSearchResultSubtitle = 59;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#textAppearanceSearchResultTitle}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#textAppearanceSearchResultTitle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4539,7 +4537,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_textAppearanceSearchResultTitle = 58;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#textAppearanceSmallPopupMenu}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#textAppearanceSmallPopupMenu}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4549,7 +4547,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_textAppearanceSmallPopupMenu = 37;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#textColorSearchUrl}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#textColorSearchUrl}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4561,7 +4559,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_textColorSearchUrl = 60;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#toolbarNavigationButtonStyle}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#toolbarNavigationButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4571,7 +4569,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_toolbarNavigationButtonStyle = 52;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#toolbarStyle}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#toolbarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4581,7 +4579,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_toolbarStyle = 51;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#windowActionBar}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#windowActionBar}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4595,7 +4593,7 @@ containing a value of this type.
         */
         public static final int Theme_windowActionBar = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#windowActionBarOverlay}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#windowActionBarOverlay}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4609,7 +4607,7 @@ containing a value of this type.
         */
         public static final int Theme_windowActionBarOverlay = 2;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#windowActionModeOverlay}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#windowActionModeOverlay}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4623,7 +4621,7 @@ containing a value of this type.
         */
         public static final int Theme_windowActionModeOverlay = 3;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#windowFixedHeightMajor}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#windowFixedHeightMajor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4642,7 +4640,7 @@ containing a value of this type.
         */
         public static final int Theme_windowFixedHeightMajor = 7;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#windowFixedHeightMinor}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#windowFixedHeightMinor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4661,7 +4659,7 @@ containing a value of this type.
         */
         public static final int Theme_windowFixedHeightMinor = 5;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#windowFixedWidthMajor}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#windowFixedWidthMajor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4680,7 +4678,7 @@ containing a value of this type.
         */
         public static final int Theme_windowFixedWidthMajor = 4;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#windowFixedWidthMinor}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#windowFixedWidthMinor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4771,7 +4769,7 @@ containing a value of this type.
         */
         public static final int Toolbar_android_minHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#collapseContentDescription}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#collapseContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -4785,7 +4783,7 @@ containing a value of this type.
         */
         public static final int Toolbar_collapseContentDescription = 19;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#collapseIcon}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#collapseIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -4795,7 +4793,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Toolbar_collapseIcon = 18;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -4811,7 +4809,7 @@ containing a value of this type.
         */
         public static final int Toolbar_contentInsetEnd = 5;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -4827,7 +4825,7 @@ containing a value of this type.
         */
         public static final int Toolbar_contentInsetLeft = 6;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -4843,7 +4841,7 @@ containing a value of this type.
         */
         public static final int Toolbar_contentInsetRight = 7;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -4859,7 +4857,7 @@ containing a value of this type.
         */
         public static final int Toolbar_contentInsetStart = 4;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#maxButtonHeight}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#maxButtonHeight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -4875,7 +4873,7 @@ containing a value of this type.
         */
         public static final int Toolbar_maxButtonHeight = 16;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#navigationContentDescription}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#navigationContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -4889,7 +4887,7 @@ containing a value of this type.
         */
         public static final int Toolbar_navigationContentDescription = 21;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#navigationIcon}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#navigationIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -4899,7 +4897,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Toolbar_navigationIcon = 20;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#popupTheme}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -4909,7 +4907,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Toolbar_popupTheme = 8;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#subtitle}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -4923,7 +4921,7 @@ containing a value of this type.
         */
         public static final int Toolbar_subtitle = 3;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#subtitleTextAppearance}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#subtitleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -4933,7 +4931,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Toolbar_subtitleTextAppearance = 10;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#theme}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#theme}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -4943,7 +4941,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Toolbar_theme = 17;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#title}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#title}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -4957,7 +4955,7 @@ containing a value of this type.
         */
         public static final int Toolbar_title = 2;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#titleMarginBottom}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#titleMarginBottom}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -4973,7 +4971,7 @@ containing a value of this type.
         */
         public static final int Toolbar_titleMarginBottom = 15;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#titleMarginEnd}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#titleMarginEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -4989,7 +4987,7 @@ containing a value of this type.
         */
         public static final int Toolbar_titleMarginEnd = 13;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#titleMarginStart}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#titleMarginStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5005,7 +5003,7 @@ containing a value of this type.
         */
         public static final int Toolbar_titleMarginStart = 12;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#titleMarginTop}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#titleMarginTop}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5021,7 +5019,7 @@ containing a value of this type.
         */
         public static final int Toolbar_titleMarginTop = 14;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#titleMargins}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#titleMargins}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5037,7 +5035,7 @@ containing a value of this type.
         */
         public static final int Toolbar_titleMargins = 11;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#titleTextAppearance}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#titleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5070,7 +5068,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int View_android_focusable = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#paddingEnd}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#paddingEnd}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -5086,7 +5084,7 @@ containing a value of this type.
         */
         public static final int View_paddingEnd = 2;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.nightcontrols.R.attr#paddingStart}
+          <p>This symbol is the offset where the {@link com.example.android.volumecontrol.R.attr#paddingStart}
           attribute's value can be found in the {@link #View} array.
 
 

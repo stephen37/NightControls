@@ -4,18 +4,28 @@ import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.graphics.SurfaceTexture;
+import android.hardware.Camera;
 import android.media.AudioManager;
 import android.os.Bundle;
 import android.support.v4.app.NotificationCompat;
 import android.support.v7.app.ActionBarActivity;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.CompoundButton;
 import android.widget.SeekBar;
+import android.widget.Spinner;
 import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import java.io.IOException;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -27,15 +37,23 @@ public class MainActivity extends ActionBarActivity {
     private SeekBar seekBarBrightness;
     private TextView seekBarBrightnessValue;
     private Switch switchBrightnessButton;
+    private Switch switchFlash;
+    private static android.hardware.Camera mCam;
+    android.hardware.Camera.Parameters parameters;
+    SurfaceTexture mPreviewTexture;
     SharedUserPreferences shared;
 
     NotificationManager nm;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        Log.d("LOG_TAG", "App launched");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         shared = new SharedUserPreferences(this);
+
+        mCam = android.hardware.Camera.open();
+        parameters = mCam.getParameters();
 
         initControls();
         switchButtonChecked();
@@ -101,6 +119,8 @@ public class MainActivity extends ActionBarActivity {
         seekBarBrightnessValue = (TextView) findViewById(R.id.seekbar_brightness_value);
         seekBarBrightness.setProgress(seekBarBrightness.getMax());
         seekBarBrightnessValue.setText(String.valueOf(seekBarBrightness.getProgress() / 10));
+        switchFlash = (Switch) findViewById(R.id.switch_flash);
+        switchFlash.setChecked(false);
 
     }
 
@@ -178,7 +198,6 @@ public class MainActivity extends ActionBarActivity {
                 startService(new Intent(MainActivity.this, Filter.class));
 
 
-
 //                int color = shared.getColor();
 //                ColorDrawable cd = new ColorDrawable(color);
 //                getWindow().setBackgroundDrawable(cd);
@@ -200,6 +219,37 @@ public class MainActivity extends ActionBarActivity {
 
             @Override
             public void onStopTrackingTouch(SeekBar seekBar) {
+
+            }
+        });
+
+        switchFlash.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean isChecked) {
+
+                if (isChecked) {
+
+                    mPreviewTexture = new SurfaceTexture(0);
+                    try {
+                        mCam.setPreviewTexture(mPreviewTexture);
+                    } catch (IOException ex) {
+                        // Ignore
+                    }
+                    mCam.startPreview();
+                    parameters.setFlashMode(android.hardware.Camera.Parameters.FLASH_MODE_TORCH);
+                    mCam.setParameters(parameters);
+                }else {
+
+                    mPreviewTexture = new SurfaceTexture(0);
+                    try {
+                        mCam.setPreviewTexture(mPreviewTexture);
+                    } catch (IOException ex) {
+                        // Ignore
+                    }
+                    mCam.startPreview();
+                    parameters.setFlashMode(Camera.Parameters.FLASH_MODE_OFF);
+                    mCam.setParameters(parameters);
+                }
 
             }
         });
@@ -238,6 +288,9 @@ public class MainActivity extends ActionBarActivity {
         if (Filter.STATE == Filter.ACTIVE) {
             stopService(new Intent(MainActivity.this, Filter.class));
         }
+        android.hardware.Camera.Parameters p = mCam.getParameters();
+        p.setFlashMode(android.hardware.Camera.Parameters.FLASH_MODE_OFF);
+        mCam.setParameters(p);
         nm = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
         nm.cancelAll();
 
@@ -247,5 +300,14 @@ public class MainActivity extends ActionBarActivity {
     public void onBackPressed() {
 //        super.onBackPressed();
         moveTaskToBack(true);
+
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+       // android.hardware.Camera.Parameters p = mCam.getParameters();
+        //p.setFlashMode(android.hardware.Camera.Parameters.FLASH_MODE_OFF);
+        //mCam.setParameters(p);
     }
 }
